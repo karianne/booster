@@ -62,7 +62,6 @@ group :development, :test do
   #gem 'sql_queries_count'
   gem 'bullet'
   gem 'rspec-rails', '~> 3.7'
-  gem 'ruby-debug-ide'
   gem 'byebug'
 end
 

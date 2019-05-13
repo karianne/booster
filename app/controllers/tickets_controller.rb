@@ -1,7 +1,7 @@
 class TicketsController < ApplicationController
   before_action :require_admin, :only => [:index, :destroy, :edit, :update, :send_ticket_email, :download_emails]
   before_action :set_ticket, only: [:show, :edit, :update]
-  before_action :ticket_sales_open?, only: [:new, :create]
+  #before_action :ticket_sales_open?, only: [:new, :create]
 
   @@filter_params = [:sponsor_id]
   # GET /tickets
